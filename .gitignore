@@ -1,0 +1,34 @@
+# 依赖与构建产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# 测试
+.pytest_cache/
+.pytest-tmp/
+
+# 凭据：口令写进 .env，不要提交
+.env
+.env.*
+!.env.example
+*.local.json
+
+# 数据目录（默认在 ~/.dsh/geo-trend-radar，若改到仓库内请忽略）
+snapshots/
+topics/
+alerts/
+baseline/
+reports/
+drafts/
+latest.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
